@@ -72,9 +72,9 @@ class TicTacToe
   end
 
   def current_player
-    if turn_count(board).even?
+    if turn_count.even?
       "X"
-    elsif turn_count(board).odd?
+    elsif turn_count.odd?
       "O"
     end
   end
