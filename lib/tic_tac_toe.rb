@@ -134,4 +134,4 @@ class TicTacToe
     end
 end
 
-TicTacToe.new("#{play}")
+Tic = TicTacToe.new
