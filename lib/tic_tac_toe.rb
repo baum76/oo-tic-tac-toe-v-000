@@ -124,7 +124,6 @@ class TicTacToe
 
   def play
     until over?
-      #require 'pry'; binding.pry
         turn
       end
       if winner
