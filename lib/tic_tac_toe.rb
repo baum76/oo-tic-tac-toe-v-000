@@ -134,4 +134,4 @@ class TicTacToe
     end
 end
 
-TicTacToe.new(Array.new(9, ""))
+game = TicTacToe.new(Array.new(9, ""))
