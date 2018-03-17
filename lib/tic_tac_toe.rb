@@ -134,4 +134,3 @@ class TicTacToe
     end
 end
 
-Tic = TicTacToe.new
