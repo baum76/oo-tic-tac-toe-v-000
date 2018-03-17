@@ -123,13 +123,13 @@ class TicTacToe
   end
 
   def play
-    until over?(board)
+    until over?
       #require 'pry'; binding.pry
-        turn(board)
+        turn
       end
-      if winner(board)
-        puts "Congratulations #{winner(board)}!"
-      elsif draw?(board)
+      if winner
+        puts "Congratulations #{winner}!"
+      elsif draw?
         puts "Cat's Game!"
       end
     end
