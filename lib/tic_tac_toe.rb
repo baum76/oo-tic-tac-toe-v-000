@@ -4,7 +4,7 @@ class TicTacToe
   [0, 3, 6], [1, 4, 7], [2, 5, 8], #vertical
   [0, 4, 8], [2, 4, 6] #diagonal
   ]
-  
+
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
   end
@@ -133,3 +133,5 @@ class TicTacToe
       end
     end
 end
+
+TicTacToe.new
