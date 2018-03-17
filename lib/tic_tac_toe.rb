@@ -94,7 +94,7 @@ class TicTacToe
     false
   end
 
-  def full?(board)
+  def full?
     if board.include?(" ") || board.include?("")
       return false
     else
