@@ -5,8 +5,8 @@ class TicTacToe
   [0, 4, 8], [2, 4, 6] #diagonal
   ]
 
-  def initialize(board)
-    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", ]
+  def initialize(board = nil)
+    @board = board || Array.new(9, " ")
   end
 
   def board=(board)
