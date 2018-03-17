@@ -122,7 +122,7 @@ class TicTacToe
     end
   end
 
-  def play(board)
+  def play
     until over?(board)
       #require 'pry'; binding.pry
         turn(board)
