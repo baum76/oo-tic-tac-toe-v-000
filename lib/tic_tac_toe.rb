@@ -102,4 +102,16 @@ class TicTacToe
     end
   end
 
+  def over?(board)
+    if won?(board) && full?(board) || won?(board) && !full?(board) || draw?(board)
+      return true
+    end
+  end
+
+  def winner(board)
+    if winning_combo = won?(board)
+      board[winning_combo.first]
+    end
+  end
+
 end
